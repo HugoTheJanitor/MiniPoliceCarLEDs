@@ -1,2 +1,2 @@
-# MiniPoliceCarLEDs
-C++, Embedded, newbbie 
+//IF YOU DON'T USE ARDUINO just delete this line of code and keep this: #include <Arduino.h>
+//THIS CODE IS VERY BASIC AND IS FOR BEGGINNERS, IT IS NOT OPTIMIZED AND IS NOT EFFICIENT, BUT IT WORKS AND IS EASY TO UNDERSTAND, SO IF YOU ARE A BEGINNER, THIS CODE IS FOR YOU.
