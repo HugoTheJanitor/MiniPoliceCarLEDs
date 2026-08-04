@@ -1,69 +1,50 @@
-# Prerequisites
-*.d
+# .gitignore for Arduino projects
 
-# Compiled Object files
-*.slo
-*.lo
+# Arduino build artifacts
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.sym
+
+# Object and library files
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
+*.so
+*.dll
 
-# Executables
-*.exe
-*.out
-*.app
+# Precompiled headers and debug
+*.gch
+*.pch
+*.dwo
+*.pdb
 
-# Build directories
+# Build directories (Arduino IDE, CLI, PlatformIO)
 build/
 Build/
-build-*/
+.pio/
+.pioenvs/
+.pioenvs/*
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
+# Temporary and cache files
 *.tmp
 *.log
 *.bak
 *.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
 .cache/
+
+# IDE/project files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep other source and config files under version control (don't ignore):
+# - platformio.ini (PlatformIO project config)
+# - *.ino, *.h, *.cpp, README.md, etc.
