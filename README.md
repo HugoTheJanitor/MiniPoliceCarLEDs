@@ -1,2 +1,4 @@
-//IF YOU DON'T USE ARDUINO just delete this line of code and keep this: #include <Arduino.h>
-//THIS CODE IS VERY BASIC AND IS FOR BEGGINNERS, IT IS NOT OPTIMIZED AND IS NOT EFFICIENT, BUT IT WORKS AND IS EASY TO UNDERSTAND, SO IF YOU ARE A BEGINNER, THIS CODE IS FOR YOU.
+// If you compile with the Arduino IDE, you don't need to add #include <Arduino.h>.
+// If you use another build system, add: #include <Arduino.h>
+//
+// This code is intentionally simple for beginners — not optimized but easy to understand.
