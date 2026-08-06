@@ -1,6 +1,3 @@
-#include <Arduino.h>
-
-
 const int Led9 = 9;
 const int Led8 = 8;
 
