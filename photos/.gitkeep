@@ -1,0 +1,3 @@
+# keep folder
+
+This file ensures the photos/ folder is tracked in git even when empty.
