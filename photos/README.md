@@ -3,10 +3,15 @@
 This folder contains photos and wiring notes for the MiniPoliceLEDs project.
 
 Images
+
 - photos/1.png  (LED anode/cathode diagram)
 - photos/2.png  (breadboard + Arduino wiring photo)
 
-If you want me to upload the actual image files, tell me and I will add them as photos/1.png and photos/2.png.
+Below are the images embedded for easier viewing (if the image files are present in the repository):
+
+![Breadboard + Arduino wiring](photos/2.png)
+
+![LED anode/cathode diagram](photos/1.png)
 
 ---
 
@@ -31,6 +36,16 @@ The program simulates a mini police flashing light. Both LEDs repeatedly turn ON
 Notes:
 - LED polarity: the longer leg is the anode (+), the shorter leg is the cathode (-).
 - Always use current-limiting resistors (220 Ω recommended) to protect the LEDs.
+
+### Your wiring text (verbatim)
+
+GND Blue Jumper wire(Male to Male) connected to: – on the PowerRails of BreadBoard (PowerRails: 2 parts –and+)
+- GND → BreadBoard Power Rail (-)
+D9, D8, Red Jumper Wires(Male to Male) connected to:+ on the middle part of the BreadBoard Terminal Strips (Terminal Strips: 2 middle parts of BreadBoard)
+- D8 → Red LED (through 220Ω resistor)
+- D9 → Blue LED (through 220Ω resistor)
+(LEDs, Having 2 legs, 1 is bigger is + (5V, HIGH) and –  (0V, LOW)
+
 
 ## Code note
 If you don't use the Arduino IDE, delete the first line of the example sketch that includes the Arduino core header and keep only:
