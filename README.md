@@ -10,13 +10,6 @@ This project is prepared in two versions:
 2. For VS Code, open [MiniPoliceLEDsVSC](MiniPoliceLEDsVSC).
 3. Select the correct board and port in Arduino IDE (Tools → Board, Tools → Port) and click Upload.
 
-## Photos
-Below are the wiring photos and a simple LED polarity diagram included in the repository under the photos/ folder.
-
-![LED anode/cathode diagram](photos/1.png)
-
-![Breadboard + Arduino wiring](photos/2.png)
-
 ## Important note
 If you need the actual working Arduino code, use [MiniPoliceLEDs.ino](MiniPoliceLEDs.ino).
 
