@@ -6,7 +6,7 @@ This project is prepared in two versions:
 - [VS Code view](VisualStudioCode/MiniPoliceLEDsVSC) — a version for Visual Studio Code, made for easier viewing and editing in the editor.
 
 ## Wiring guide and photos
-See the full wiring guide and photos: [Guide.md](Guide.md)
+See the full wiring guide and photos: [Guide.md](photos/Guide.md)
 Photos are stored in the `photos/` folder (for example `photos/Cathode.png`, `photos/BreadArduino.png`).
 
 ## How to use it
