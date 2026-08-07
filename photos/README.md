@@ -4,8 +4,8 @@ This folder contains photos and wiring notes for the MiniPoliceLEDs project.
 
 Images
 
-- photos/1.png  (LED anode/cathode diagram)
-- photos/2.png  (breadboard + Arduino wiring photo)
+- photos/3.png  (LED anode/cathode diagram)
+- photos/4.png  (breadboard + Arduino wiring photo)
 
 Below are the images embedded for easier viewing (if the image files are present in the repository):
 
