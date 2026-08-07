@@ -9,9 +9,9 @@ Images
 
 Below are the images embedded for easier viewing (if the image files are present in the repository):
 
-![Breadboard + Arduino wiring](photos/2.png)
+![Breadboard + Arduino wiring](photos/3.png)
 
-![LED anode/cathode diagram](photos/1.png)
+![LED anode/cathode diagram](photos/4.png)
 
 ---
 
