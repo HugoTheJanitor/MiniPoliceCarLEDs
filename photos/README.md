@@ -4,14 +4,14 @@ This folder contains photos and wiring notes for the MiniPoliceLEDs project.
 
 Images
 
-- photos/3.png  (LED anode/cathode diagram)
-- photos/4.png  (breadboard + Arduino wiring photo)
+- photos/1.png  (LED anode/cathode diagram)
+- photos/2.png  (breadboard + Arduino wiring photo)
 
 Below are the images embedded for easier viewing (if the image files are present in the repository):
 
-![Breadboard + Arduino wiring](photos/1.png)
+![Breadboard + Arduino wiring](photos/2.png)
 
-![LED anode/cathode diagram](photos/2.png)
+![LED anode/cathode diagram](photos/1.png)
 
 ---
 
@@ -82,4 +82,4 @@ If you don't use the Arduino IDE, delete the first line of the example sketch th
 - D9 → резистор → анод синего светодиода
 - Катоды светодиодов → минусовая шина (-)
 
-Примечание: если нужно, могу переформулировать текст или сразу загрузить изображения в папку photos/ (файлы photos/1.png и photos/2.png).
+Примечание: если нужно, могу переформулировать текст или сразу загрузить изображения в папку photos/ (файлы phot[...]
